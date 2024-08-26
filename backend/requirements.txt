@@ -1,0 +1,9 @@
+table-evaluator
+Django
+django-cors-headers
+djangorestframework
+psycopg2-binary
+wkhtmltopdf
+sdv
+gunicorn
+kaleido

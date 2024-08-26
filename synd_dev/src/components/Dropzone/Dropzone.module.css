@@ -1,0 +1,113 @@
+.section {
+  position: relative;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 130px;
+  background-image: url("../../assets/dropzonebg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fafafa !important;
+  min-height: 100vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.left {
+  /* margin: 10% 20px; */
+  /* align-self: center; */
+  max-width: 600px;
+  margin: 20px;
+}
+.main {
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  padding: 50px;
+  position: relative;
+}
+
+.dropzone {
+  border-color: #8b08ff;
+  margin-top: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff !important;
+}
+
+.button {
+  width: 100%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #8b08ff 0%, #d201ff 100%);
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 30px 0;
+  cursor: pointer;
+  height: 60px;
+}
+
+.filetype {
+  color: #777;
+}
+
+.gradimg {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.grad1 {
+  z-index: 0;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.grad2 {
+  z-index: 0;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.grad3 {
+  z-index: 0;
+  position: absolute;
+  top: auto;
+  bottom: -40%;
+  left: auto;
+  right: 0%;
+}
+
+.video {
+  display: flex;
+  margin: 80px auto 10px auto;
+  width: 200px;
+  height: 200px;
+  border: 1px dotted rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 550px) {
+  .section
+  {
+    flex-direction: column;
+  }
+  .right
+  {
+    margin: 20px;
+  }
+}
