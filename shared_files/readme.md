@@ -1,0 +1,1 @@
+This folder will contain all the shared files related to the project.
