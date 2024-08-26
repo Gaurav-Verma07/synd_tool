@@ -7,3 +7,5 @@ wkhtmltopdf
 sdv
 gunicorn
 kaleido
+xvfb
+libfontconfig

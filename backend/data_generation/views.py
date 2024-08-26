@@ -213,6 +213,7 @@ def generate_report(request):
         
         template = get_template(template_src)
         html = template.render(data)
+        print("template-wow", html)
 
         generated_path="data_generation/generated_report"
 
