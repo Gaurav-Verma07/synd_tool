@@ -1,0 +1,66 @@
+Generating report ...
+
+(1/2) Evaluating Column Shapes: |██████████| 55/55 [00:06<00:00,  8.51it/s]|
+Column Shapes Score: 99.58%
+
+(2/2) Evaluating Column Pair Trends: |██████████| 1485/1485 [23:18<00:00,  1.06it/s]|
+Column Pair Trends Score: 93.77%
+
+Overall Score (Average): 96.68%
+
+                                Column        Metric     Score
+0                            Elevation  KSComplement  0.982430
+1                               Aspect  KSComplement  0.990290
+2                                Slope  KSComplement  0.991250
+3     Horizontal_Distance_To_Hydrology  KSComplement  0.952475
+4       Vertical_Distance_To_Hydrology  KSComplement  0.973129
+5      Horizontal_Distance_To_Roadways  KSComplement  0.987171
+6                        Hillshade_9am  KSComplement  0.980189
+7                       Hillshade_Noon  KSComplement  0.982878
+8                        Hillshade_3pm  KSComplement  0.992669
+9   Horizontal_Distance_To_Fire_Points  KSComplement  0.990984
+10                    Wilderness_Area1  TVComplement  0.998925
+11                    Wilderness_Area2  TVComplement  0.998876
+12                    Wilderness_Area3  TVComplement  0.999924
+13                    Wilderness_Area4  TVComplement  0.999573
+14                          Soil_Type1  TVComplement  0.999617
+15                          Soil_Type2  TVComplement  0.999802
+16                          Soil_Type3  TVComplement  0.999479
+17                          Soil_Type4  TVComplement  0.999985
+18                          Soil_Type5  TVComplement  0.997251
+19                          Soil_Type6  TVComplement  0.999544
+20                          Soil_Type7  TVComplement  0.999819
+21                          Soil_Type8  TVComplement  0.999692
+22                          Soil_Type9  TVComplement  0.998026
+23                         Soil_Type10  TVComplement  0.999108
+24                         Soil_Type11  TVComplement  0.999469
+25                         Soil_Type12  TVComplement  0.999144
+26                         Soil_Type13  TVComplement  0.999611
+27                         Soil_Type14  TVComplement  0.998969
+28                         Soil_Type15  TVComplement  0.999995
+29                         Soil_Type16  TVComplement  0.995103
+30                         Soil_Type17  TVComplement  0.999190
+31                         Soil_Type18  TVComplement  0.996732
+32                         Soil_Type19  TVComplement  0.999129
+33                         Soil_Type20  TVComplement  0.999706
+34                         Soil_Type21  TVComplement  0.998558
+35                         Soil_Type22  TVComplement  0.998439
+36                         Soil_Type23  TVComplement  0.999319
+37                         Soil_Type24  TVComplement  0.999902
+38                         Soil_Type25  TVComplement  0.999184
+39                         Soil_Type26  TVComplement  0.995544
+40                         Soil_Type27  TVComplement  0.998131
+41                         Soil_Type28  TVComplement  0.998372
+42                         Soil_Type29  TVComplement  0.999746
+43                         Soil_Type30  TVComplement  0.999577
+44                         Soil_Type31  TVComplement  0.999405
+45                         Soil_Type32  TVComplement  0.999662
+46                         Soil_Type33  TVComplement  0.998556
+47                         Soil_Type34  TVComplement  0.997227
+48                         Soil_Type35  TVComplement  0.996745
+49                         Soil_Type36  TVComplement  0.999795
+50                         Soil_Type37  TVComplement  0.999487
+51                         Soil_Type38  TVComplement  0.999903
+52                         Soil_Type39  TVComplement  0.999322
+53                         Soil_Type40  TVComplement  0.999920
+54                          Cover_Type  TVComplement  0.994483
