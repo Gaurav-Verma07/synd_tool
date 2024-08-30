@@ -21,16 +21,17 @@
         font-size: 16px;
         font-style: italic;
       }
-      .sm_img{
-      width: 1000px;
-      height: 500px;
+      .sm_img {
+        width: 1000px;
+        height: 500px;
       }
-      .lg_img{
+      .lg_img {
         width: 1000px;
         height: 1000px;
       }
-
-
+      .about_plot {
+        font-weight: 400;
+      }
     </style>
   </head>
   <body>
@@ -52,23 +53,54 @@
 
     <h1 class="plots_heading">Metrics of real and generated synthetic data</h1>
 
-
     <p class="plots_title">Quality report:</p>
+    <p>
+      Shows the metric score for each column. The score metrics are provided
+      above.
+    </p>
     <img class="lg_img" src="{{ quality_report }}" alt="Image" />
 
     <p class="plots_title">Mean distribution:</p>
+    <p class="about_plot">
+      The points should lie close to the diagonal line (y = x). This indicates
+      that the mean/STDs of the synthetic data closely matches the mean/STDs of
+      the real data for each feature.
+    </p>
     <img class="sm_img" src="{{ mean_std_path }}" alt="Image" />
     <br />
     <p class="plots_title">cumulative sums per feature:</p>
+    <p class="about_plot">
+      The cumulative sum (CDF) for each feature shows the proportion of data
+      points that fall below a certain value. : If the blue and orange lines
+      (representing real and fake data, respectively) are closely aligned, this
+      indicates that the distribution of the synthetic data for that feature
+      closely matches the distribution of the real data.
+    </p>
     <img class="lg_img" src="{{ cumsums_path }}" alt="Image" />
     <br />
     <p class="plots_title">distributions per feature:</p>
+    <p class="about_plot">
+      Gives the probability density of the random variable at each possible
+      value. If the blue and orange KDE lines closely align across the range of
+      values, the synthetic data is a good approximation of the real data.
+    </p>
     <img class="lg_img" src="{{ distributions_path }}" alt="Image" />
     <br />
     <p class="plots_title">Correlation difference:</p>
+    <p class="about_plot">
+      This heatmap visualizes the absolute difference between the correlations
+      in the real and fake datasets. A more intense red color indicates a larger
+      difference between the correlations in the real and fake datasets,
+      signaling that the synthetic data does not perfectly replicate the
+      statistical properties of the real data.
+    </p>
     <img class="sm_img" src="{{ correlation_difference_path }}" alt="Image" />
     <br />
     <p class="plots_title">Components of PCA:</p>
+    <p class="about_plot">
+      The scatter plots allow you to visually compare the distribution and
+      spread of the data in a lower-dimensional space.
+    </p>
     <img class="sm_img" src="{{ pca_path }}" alt="Image" />
     <br />
   </body>
